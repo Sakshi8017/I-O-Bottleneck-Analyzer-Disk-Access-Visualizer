@@ -29,7 +29,7 @@
 
 1. Clone the repository:
    ```sh
-   git clone <YOUR_GIT_URL>
+  git clone https://github.com/Sakshi8017/I-O-Bottleneck-Analyzer-Disk-Access-Visualizer.git
    ```
 
 2. Navigate to the project directory:
