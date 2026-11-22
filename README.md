@@ -4,6 +4,17 @@
 
 **IO Insight Quest** is a comprehensive tool for analyzing disk I/O performance bottlenecks in Linux systems. It leverages real-time monitoring and visualization to help system administrators and students understand I/O behavior in operating systems.
 
+## 📌 Project Status
+
+- **Status:** Completed Prototype
+- **Data Source:** Simulated Disk I/O Metrics
+- **Deployment:** Local Development
+
+This project uses simulated data to demonstrate
+disk I/O performance visualization and bottleneck
+analysis. It does not currently collect live disk
+metrics from an operating system.
+
 ## Features
 
 - **Real-time Monitoring**: Continuous collection of disk I/O metrics using `iostat`, `vmstat`, and `/proc` filesystem.
