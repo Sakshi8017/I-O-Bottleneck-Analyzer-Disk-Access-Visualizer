@@ -15,6 +15,18 @@ disk I/O performance visualization and bottleneck
 analysis. It does not currently collect live disk
 metrics from an operating system.
 
+
+## ✨ Key Features
+
+- Interactive disk I/O performance dashboard
+- Visualization of disk throughput and latency
+- Disk utilization analysis using simulated metrics
+- Queue and performance trend visualization
+- CPU I/O wait analysis demonstration
+- Graphical representation of potential bottlenecks
+- Interactive charts for understanding system performance
+
+
 ## Features
 
 - **Real-time Monitoring**: Continuous collection of disk I/O metrics using `iostat`, `vmstat`, and `/proc` filesystem.
@@ -45,7 +57,7 @@ metrics from an operating system.
 
 2. Navigate to the project directory:
    ```sh
-   cd io-insight-quest
+   cd I-O-Bottleneck-Analyzer-Disk-Access-Visualizer
    ```
 
 3. Install dependencies:
