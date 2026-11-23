@@ -26,15 +26,6 @@ metrics from an operating system.
 - Graphical representation of potential bottlenecks
 - Interactive charts for understanding system performance
 
-
-## Features
-
-- **Real-time Monitoring**: Continuous collection of disk I/O metrics using `iostat`, `vmstat`, and `/proc` filesystem.
-- **Bottleneck Detection**: Automated identification of I/O bottlenecks using threshold-based analysis.
-- **Visual Dashboard**: Interactive charts for throughput, latency, and utilization.
-- **CPU I/O Wait Analysis**: Track CPU time spent waiting for I/O operations.
-- **DSA Implementation**: Practical application of queues, priority queues, sliding windows, and graphs.
-
 ## Technologies Used
 
 - **Frontend**: React, TypeScript, Vite
@@ -42,31 +33,56 @@ metrics from an operating system.
 - **Icons**: Lucide React
 - **Charts**: Recharts
 
-## Getting Started
+ 
+## 🚀 Getting Started
 
 ### Prerequisites
 
-- Node.js & npm
+- Node.js
+- npm
 
 ### Installation
 
 1. Clone the repository:
-   ```sh
-  git clone https://github.com/Sakshi8017/I-O-Bottleneck-Analyzer-Disk-Access-Visualizer.git
-   ```
+
+```bash
+git clone https://github.com/Sakshi8017/I-O-Bottleneck-Analyzer-Disk-Access-Visualizer.git
+```
 
 2. Navigate to the project directory:
-   ```sh
-   cd I-O-Bottleneck-Analyzer-Disk-Access-Visualizer
-   ```
+
+```bash
+cd I-O-Bottleneck-Analyzer-Disk-Access-Visualizer
+```
 
 3. Install dependencies:
-   ```sh
-   npm install
-   ```
+
+```bash
+npm install
+```
 
 4. Start the development server:
-   ```sh
-   npm run dev
-   ```
+
+```bash
+npm run dev
+```
+
+### Build for Production
+
+```bash
+npm run build
+```
+
+
+---
+
+## 🔮 Future Improvements
+
+- Integrate live disk I/O metric collection.
+- Add backend support for system monitoring.
+- Improve bottleneck detection and analysis.
+- Add more interactive performance visualizations.
+- Deploy the application online.
+
+
 
